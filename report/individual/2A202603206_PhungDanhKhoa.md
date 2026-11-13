@@ -131,6 +131,12 @@ Kết quả dưới đây lấy từ lần chạy thử trên máy với YOLO11n
 | 36–38 và 45–48 | P1 | Mất dấu sau frame 35. Đến frame 49 mới bắt lại với ID 3 của tracker. | Giữ MOT ID 1. Vẫn có box khi P1 còn lộ một phần và lúc vừa hiện lại. | Điểm phát hiện thấp khi bị che. Chẳng hạn ở frame 48, YOLO có box khớp với P1 nhưng điểm chỉ khoảng 0,08, dưới ngưỡng đầu vào 0,10. |
 | 103–106 | P5 | ID 8 còn khớp ở frame 102. Từ 103 đến 106 không còn box tracker khớp với P5. | Giữ MOT ID 5 đến hết frame 106, trước khi bật `outside` ở frame 107. | Khi người phía trước che P5, điểm phát hiện giảm. Ở frame 102 box khớp còn khoảng 0,13. Từ 103 đến 106, lượt kiểm tra detector không thấy box nào đủ khớp với P5. |
 
+Ảnh dưới đây được dựng từ frame gốc, box gán tay (xanh) và box ByteTrack khớp với người đang xét (cam). Các khung ghi «No ByteTrack match» có IoU dưới 0,50. Nguồn ảnh MOT17, MOTChallenge (Milan et al., 2016).
+
+![P1 trước, trong và sau đoạn mất dấu ở frame 35, 48, 49](images/bonus_b3_p1.jpg)
+
+![P5 trước và trong đoạn mất dấu ở frame 102, 103, 106](images/bonus_b3_p5.jpg)
+
 ## 7. Tài liệu tham khảo và công cụ AI đã dùng
 
 - MOT17, MOTChallenge (Milan et al., 2016).
