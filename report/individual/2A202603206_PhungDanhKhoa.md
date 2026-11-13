@@ -9,8 +9,8 @@
 - Mã đề (A/B/C): B
 - Email: phungdanhkhoa0712@gmail.com
 - Link repository: https://github.com/phungdanhkhoa/K5-L2A-PhungDanhKhoa-2A202603206-MOTTracking
-- Giờ bắt đầu: Chờ học viên bổ sung.
-- Giờ kết thúc: Chờ học viên bổ sung. Bản xuất CVAT được tạo lúc 17:39 ngày 13/11/2026 (GMT+7).
+- Giờ bắt đầu: Không ghi lại.
+- Giờ kết thúc: Không ghi lại. Bản xuất CVAT được tạo lúc 17:39 ngày 13/11/2026 (GMT+7).
 
 ## 1. Xem trước đoạn video (CP0)
 
