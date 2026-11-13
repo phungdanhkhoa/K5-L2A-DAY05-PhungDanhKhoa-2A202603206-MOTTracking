@@ -118,6 +118,8 @@ Mình so hai cách trên P3 (MOT ID 3). Bản thưa dùng lại các box mình �
 
 Frame 21 lệch nhất khi so với track chính (IoU khoảng 0,71). Box nội suy rộng hơn và thấp hơn box chính. P3 đang đi từ mép phải vào nên phần người nằm trong ảnh thay đổi nhanh. Nội suy giữa frame 0 và 30 làm các cạnh box dịch đều, nên ở frame 21 box chưa bám sát người như track chính.
 
+[ZIP track phụ B2](../../src/exports/PhungDanhKhoa_bonus_b2.zip) chứa một track P3 với sáu keyframe. File được dựng ngoại tuyến theo định dạng CVAT for video 1.1 từ sáu box đã gán. Cờ che trong ZIP lấy tại các mốc này. Phần so sánh B2 dùng tọa độ box.
+
 ![So sánh box P3 tại frame 21](images/bonus_b2_p3.jpg)
 
 Ảnh so sánh dựng từ frame gốc và tọa độ hai box. Nguồn ảnh MOT17, MOTChallenge (Milan et al., 2016).
